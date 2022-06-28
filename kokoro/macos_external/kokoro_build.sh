@@ -11,4 +11,4 @@ python3.7 -m pip install --user -e jax
 cd jax
 python3.7 -m pip install --user https://storage.googleapis.com/jax-releases/mac/jaxlib-0.3.14-cp37-none-macosx_10_14_x86_64.whl
 python3.7 -m pip install --user pytest
-pytest tests/fft_test.py
+python3.7 -m pytest tests/fft_test.py
